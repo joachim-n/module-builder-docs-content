@@ -15,7 +15,7 @@ weight = 2
    config entity.
 
 4. That's all you need to create the module entity. You can press the 'Save'
-   button, or you can enter further details.
+   button, or you can [enter further details]({{< relref "sections/info.md" >}}).
 
 5. After you've saved the module, the form shows a number of tabs, each one for
    different types of modules components. You can navigate between these tabs in
@@ -23,3 +23,4 @@ weight = 2
 
 6. When you've entered all your options, go to the 'Generate' tab to see the
    module code and write the files.
+

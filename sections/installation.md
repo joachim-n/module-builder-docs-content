@@ -24,3 +24,7 @@ composer require drupal/module_builder
 You should run the code analysis again if you have enabled new modules, updated
 modules, or added code to your custom modules, so that Module Builder knows
 about new components in your codebase.
+
+After the analysis has run, the page will show a list of all the components it
+has detected. On a typical site, you might have over 300 hooks and over 50
+plugins types, for example.

@@ -48,7 +48,7 @@ new components in your codebase.
 
 # Module options in detail
 
-## Info
+## Info page
 
 The Info tab is the form initially used to create the module. It holds data that goes in the module's `info.yml` file.
 
@@ -56,7 +56,7 @@ It also allows you to specify where the module will be written. By default, modu
 
 For more information on the info properties, see [the info file documentation](https://www.drupal.org/docs/develop/creating-modules/let-drupal-know-about-your-module-with-an-infoyml-file).
 
-## Hooks
+## Hooks page
 
 The Hooks tab lets you add hook implementations. These can be
 procedural functions, or use the new OO-style hooks which are methods in a
@@ -100,7 +100,7 @@ the hook groups section of the form.
 2. Start typing the hook name in the filter below.
 3. Select the hook's checkbox.
 
-## Plugins
+## Plugins page
 
 The Plugins tab lets you add plugins and plugin types.
 
@@ -174,3 +174,13 @@ This will generate several code files, including:
 
 Once you have generated the code files for your plugin type, you can enable the module, re-do code analysis,
 and then Module Builder will be able to generate plugins of this new type.
+
+## Entity types page
+
+The entity types page lets you add content and config entity types.
+
+
+
+# The Generate form
+
+ Some types of component will merge with existing code; for others, you

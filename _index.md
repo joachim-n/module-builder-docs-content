@@ -3,12 +3,12 @@ menus = 'main'
 title = 'Home'
 +++
 
-# Overview
+# Module Builder
 
 Module Builder is a Drupal module which creates code for Drupal modules. Module Builder provides an interface
 in your Drupal site's admin area, which guides you through a series of forms to set the components for your module and their options, and then write the code files. You can write a new module from scratch, or add components to an existing module.
 
-The options for your module are stored in Drupal configuration, as a config entity, so you can return to your module's options and add or change things, and then re-generate the updated parts of the code.
+The options for your module are stored in Drupal configuration, as a [config entity](https://www.drupal.org/docs/drupal-apis/entity-api/configuration-entity), so you can return to your module's options and add or change things, and then re-generate the updated parts of the code.
 
 Module Builder analyses your codebase to discover what different components are available to build. For example, it will offer hooks and plugins based on the hooks and plugin types that are found in your site's code.
 
@@ -16,16 +16,16 @@ Module Builder analyses your codebase to discover what different components are 
 
 1. Install Module Builder using Composer, the same as any other Drupal module.
 
-2. Enable the module in the UI or with Drush.
+2. Enable the module in the UI on the Extend page, or with Drush.
 
 3. Go to Administration › Configuration › Development › Module Builder › Analyse
    code.
 
 4. Click the 'Update code analysis' button.
 
-You should run the code analysis again each time you enable new modules, update
-modules, or add code to your custom modules, so that Module Builder knows about
-new components in your codebase.
+You should run the code analysis again if you have enabled new modules, updated
+modules, or added code to your custom modules, so that Module Builder knows
+about new components in your codebase.
 
 # Create a module
 

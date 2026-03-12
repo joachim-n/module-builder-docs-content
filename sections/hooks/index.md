@@ -21,16 +21,28 @@ backwards-compatible with older versions of Drupal.
    - The hooks class name.
    - A table of hooks implementations.
    - The injected services.
+
+<img src="hooks-table-initial.png" width="800px">
+
 2. The bottom (and currently only) row of the hook implementations table shows
    a search box for the hook name. Start typing part of the hook name to filter
    the autocomplete dropdown. You can click on the documentation link for a hook
    to read more about it on the Drupal API site.
+
+<img src="hooks-autocomplete-dropdown.png" width="800px">
+
 3. Click on the hook in the dropdown, then click the
    'Add hook method' button. This adds your hook to the table.
+
+<img src="hooks-table-plain-hook.png" width="800px">
+
 4. If your hook uses token replacements in its name (such as
    `hook_form_FORM_ID_alter`, or `hook_ENTITY_TYPE_access`), its table row will
    show a text box for the value. So for example, if you want to implement
    `hook_node_access`, enter 'node'.
+
+<img src="hooks-table-tokenised-hook.png" width="800px">
+
 5. You can add as many hooks methods as you want.
 6. You can add services to inject into the hooks class. The 'Injected
    services' form element has an autocomplete.

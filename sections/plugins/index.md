@@ -1,7 +1,7 @@
 +++
 menus = 'main'
 title = 'Plugins form'
-weight = 13
+weight = 12
 +++
 
 ## Plugins form

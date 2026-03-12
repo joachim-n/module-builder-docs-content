@@ -19,6 +19,8 @@ composer require drupal/module_builder
 3. Go to Administration › Configuration › Development › Module Builder › Analyse
    code.
 
+<img src="screenshot-analysis-form.png" width="400px">
+
 4. Click the 'Update code analysis' button.
 
 You should run the code analysis again if you have enabled new modules, updated

@@ -15,7 +15,13 @@ The plugins section of the form lets you add plugins.
 1. In the Plugin type form element, start typing part of the plugin type name to
    filter the autocomplete dropdown. You can click on the documentation link for
    a plugin type to read more about it on the Drupal API site.
+
+   IMG dropdown
+
 2. Click 'Add a plugins item'. This adds a form section for the plugin.
+
+   IMG top of plugin form
+
 3. Enter the plugin ID.
 4. The rest of the form differs depending on the type of the plugin.
 
@@ -24,6 +30,8 @@ The plugins section of the form lets you add plugins.
 These are plugins which are a class with an attribute or annotation to declare it to the plugin system.
 
 All the form elements after the plugin ID are optional.
+
+  IMG class plugin
 
 1. The class name form element will fill in automatically based on the plugin ID you enter.
    You can rewrite this if you want.
@@ -45,6 +53,8 @@ These are plugins which are defined in a YAML file.
 
 All the form elements after the plugin ID are optional.
 
+  IMG yaml plugin
+
 1. You can set the plugin to use a deriver. This adds a deriver class which
    dynamically defines multiple plugins based on the plugin.
 2. You can specify to add a custom class for your plugin. YAML plugins typically
@@ -65,9 +75,12 @@ This will generate several code files, including:
 - An api.php file documenting the plugin type alter hook.
 
 1. Select the plugin discovery type. This can be one of:
-  - Attribute-based plugins: Each plugin is a class with an attribute to declare the plugin data.
-  - Annotation-based plugins: Each plugin is a class with an annotation to declare the plugin data.
-  - YAML-based plugins: Plugins are declared in a single YAML file, and usually share a single class.
+  - Attribute-based plugins: Each plugin is a class with an attribute to declare
+    the plugin data.
+  - Annotation-based plugins: Each plugin is a class with an annotation to
+    declare the plugin data.
+  - YAML-based plugins: Plugins are declared in a single YAML file, and usually
+    share a single class.
 2. Click 'Add a plugin types item'. This adds a form section for the plugin type.
 3. Enter the plugin type ID. This will be used to form the service ID of the plugin manager service.
 4. Subsequent form elements for the label, class name, subdirectory, and so on are filled in automatically for you. You can rewrite these if you want.

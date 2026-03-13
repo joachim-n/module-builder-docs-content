@@ -21,27 +21,28 @@ Nodes, taxonomy terms, media, and users are all content entity types.
    label and class name, but you can change these to something different.
 3. Select as many of the Entity functionality options you want for your entity
    type:
-   - Fieldable: The entity type can have fields.
-   - Revisionable: The entities can have multiple revisions.
-   - Translatable: The entities can be translated.
-   - Changed: The entities have a timestamp field that stores their last change. Entity class implements EntityChangedInterface.
-   - Owner: The entities have a field that stores a user reference to their
-     author. Entity class implements EntityOwnerInterface.
-   - Published: The entities have a status field indicating whether they are
-     published or not. Entity class implements EntityPublishedInterface.
 
-First Term
-: This is the definition of the first term.
+   Fieldable
+   : The entity type can have fields.
 
-Second Term
-: This is one definition of the second term.
-: This is another definition of the second term.
+   Revisionable
+   : The entities can have multiple revisions.
 
-Allows the entities to have multiple revisions.
-Translatable
-Allows the entities to be translated.
-Owner
-Entities have an owner. Entity class implements EntityOwnerInterface.
+   Translatable
+   : The entities can be translated.
+
+   Changed
+   : The entities have a timestamp field that stores their last change. The Entity class will implement EntityChangedInterface.
+
+   Owner
+   : The entities have a field that stores a user reference to their
+     author. The Entity class will implement EntityOwnerInterface.
+
+   Published
+   : The entities have a status field indicating whether they are
+     published or not. The Entity class will implement EntityPublishedInterface.
+
+
 
 
 ## Config entity types

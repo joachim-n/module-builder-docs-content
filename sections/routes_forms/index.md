@@ -109,6 +109,9 @@ The forms section lets you add form classes to your module.
    namespace in your module.
 3. You can add form elements.
    1. Click 'Add a Form elements item'. This adds a form section.
+
+   <img src="routes-form-elements.png" width="400px">
+
    2. Enter a name for the element. This is the string that is used as an array
       key in the [FormAPI
       array](https://www.drupal.org/docs/drupal-apis/form-api/form-render-elements).

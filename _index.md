@@ -12,6 +12,14 @@ The options for your module are stored in Drupal configuration, as a [config ent
 
 Module Builder analyses your codebase to discover what different components are available to build. For example, it will offer hooks and plugins based on the hooks and plugin types that are found in your site's code.
 
+
+
+
+So here is one: Drupal Code Builder is an analytical code generator.
+
+I'm going to add a second one: the Drupal Code Builder Drush commands and Module Builder (which still exists, though is now just module that provides a Drupal-based UI for the Drupal Code Builder library) are adaptive.
+
+
 # Module options in detail
 
 

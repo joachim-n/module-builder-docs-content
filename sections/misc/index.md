@@ -106,4 +106,39 @@ library can have one or more of both types of file.
 2. Enter the machine name for the library.
 3. The version number of a library should be incremented whenever its asset
    files change, so it can be left as the default of '1.x'.
-4.
+4. Click 'Add a CSS file item' to add a stylesheet file. This adds a form
+   section.
+
+  <img src="TODO.png" width="400px">
+
+  1. Enter the filename.
+  2. Select the stylesheet type.
+
+5. Click 'Add a JS file item' to add a JavaScript file. This adds a form section.
+
+  <img src="TODO.png" width="400px">
+
+  1. Enter the filename.
+
+6. Enter any dependencies the library has.
+
+## Drush commands
+
+[Drush](https://www.drush.org/) is a command-line tool for managing a Drupal
+site. It can be extended with custom commands.
+
+1. Click 'Add a Drush commands item'. This adds a form section for the command.
+
+  <img src="misc-drush.png" width="400px">
+
+2. Enter the command name. This is the string that is typed to execute the
+   command.
+3. Optionally, enter aliases for the command. These are typically abbreviated
+   forms of the command name.
+4. Enter a description for the command.
+5. Optionally, enter the names of the command's parameters. These are values that
+   go directly after the command, for example: `drush mycommand param1 param2`.
+6. Optionally, enter the names of the command's options, and a default value.
+   These are values that are specified with command line options, for example:
+   `drush mycommand --option1=bar --option2=foo`.
+

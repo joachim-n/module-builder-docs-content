@@ -23,6 +23,8 @@ I'm going to add a second one: the Drupal Code Builder Drush commands and Module
 # Module options in detail
 
 
+You can generate code at any time, and add further options.
+
 ## Entity types page
 
 The entity types page lets you add content and config entity types.

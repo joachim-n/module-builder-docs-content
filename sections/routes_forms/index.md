@@ -108,7 +108,8 @@ The forms section lets you add form classes to your module.
 2. Enter the short name of the form class. All form classes go in the same
    namespace in your module.
 3. You can add form elements.
-   1. Click 'Add a Form elements item'. This adds a form section.
+   1. Click 'Add a Form elements item'. This adds a form section for the form
+      element.
 
    <img src="routes-form-elements.png" width="400px">
 

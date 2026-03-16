@@ -86,6 +86,23 @@ types.
    4. Select the field type.
    5. You can add as many base fields as you like.
 
+7. Specify which [entity
+   handlers](https://www.drupal.org/docs/drupal-apis/entity-api/handlers) your
+   entity type uses. Entity handlers are classes which control a particular area
+   of functionality for an entity type.
+   - For most handler types, the options are:
+     - Don't specify a handler class for this handler type at all. The entity
+       type will not provide the functionality for this handler type.
+     - Use the generic class from Drupal core for this handler type.
+     - Create a custom handler class for this entity type. This allows your
+       entity type to have custom functionality.
+
+       <img src="entities-handlers-list.png" width="400px">
+
+   - There are some handler types that all entity types have: Drupal Entity API
+     will use a generic handler class if none is specified. In this case, the
+     only option is whether to add a custom handler class or not.
+
 ## Config entity types
 
 Config entity types are stored in the configuration system, and are typically

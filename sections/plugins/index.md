@@ -96,7 +96,7 @@ This will generate several code files, including:
    : Each plugin is a class with an annotation to declare the plugin data. This
      type is now replaced by attributes in Drupal core, and will be deprecated.
 
-   YAML-based plugins:
+   YAML-based plugins
    : Plugins are declared in a single YAML file, and usually share a single
      class. Examples of this are breakpoints, and menu links, tasks, and
      actions.

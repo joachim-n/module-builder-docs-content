@@ -16,7 +16,7 @@ The Miscellaneous tab lets you various components, including:
 - Libraries
 - Drush commands
 
-## Services
+## Services
 
 Services are classes which provide some sort of API, and [which are obtained from
 the service container](https://www.drupal.org/docs/drupal-apis/services-and-dependency-injection/services-and-dependency-injection-in-drupal).
@@ -55,6 +55,9 @@ The events form section lets you define events that you can trigger in module
 code, and listen to with subscribers.
 
 1. Click 'Add an events item'. This adds a new row to the table.
+
+  <img src="misc-events.png" width="400px">
+
 2. Enter a name for the event. This should be a string in snake case. The
    generated code will automatically add the name of the module as a prefix.
 3. Add a description for the event.
@@ -109,14 +112,14 @@ library can have one or more of both types of file.
 4. Click 'Add a CSS file item' to add a stylesheet file. This adds a form
    section.
 
-  <img src="TODO.png" width="400px">
+  <img src="misc-libraries-css.png" width="400px">
 
   1. Enter the filename.
   2. Select the stylesheet type.
 
 5. Click 'Add a JS file item' to add a JavaScript file. This adds a form section.
 
-  <img src="TODO.png" width="400px">
+  <img src="misc-libraries-js.png" width="400px">
 
   1. Enter the filename.
 

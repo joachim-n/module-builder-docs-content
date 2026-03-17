@@ -4,11 +4,11 @@ title = 'Plugins form'
 weight = 12
 +++
 
-## Plugins form
+# Plugins form
 
 The Plugins tab lets you add plugins and plugin types.
 
-### Plugins
+## Plugins
 
 The plugins section of the form lets you add plugins.
 
@@ -26,7 +26,7 @@ The plugins section of the form lets you add plugins.
 4. Enter the plugin ID.
 5. The rest of the form differs depending on the type of the plugin.
 
-#### Attribute or annotation-based plugins
+### Attribute or annotation-based plugins
 
 These are plugins which are a class with an attribute or annotation to declare
 it to the plugin system. Module Builder detects whether the plugin type uses
@@ -55,7 +55,7 @@ hook to switch the original plugin class with your class. To do this:
 1. Specify the plugin to replace as the 'Parent class plugin ID'
 2. Enable the 'Replace parent plugin' checkbox.
 
-#### YAML plugins
+### YAML plugins
 
 These are plugins which are defined in a YAML file.
 
@@ -74,7 +74,7 @@ All the form elements after the plugin ID are optional.
 3. If using a custom plugin class, you can add services to inject into it. The
    'Injected services' form element has an autocomplete.
 
-### Plugin types
+## Plugin types
 
 The plugin types section of the form lets you add plugin types.
 

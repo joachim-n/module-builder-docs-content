@@ -4,13 +4,13 @@ title = 'Hooks form'
 weight = 11
 +++
 
-## Hooks form
+# Hooks form
 
 The Hooks tab lets you add hook implementations. These can be procedural
 functions, or use the new object-oriented-style hooks which are methods in a
 class.
 
-### Object-oriented hooks
+## Object-oriented hooks
 
 Object-oriented hooks are methods in a PHP class. These were [introduced in
 Drupal 11.1](https://www.drupal.org/blog/drupal-11-1-0), and can be
@@ -48,7 +48,7 @@ backwards-compatible with older versions of Drupal.
    services' form element has an autocomplete.
 7. You can add as many hook classes as you like.
 
-### Procedural hooks
+## Procedural hooks
 
 Procedural hooks are functions in plain PHP file, often the `.module` file.
 

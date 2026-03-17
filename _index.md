@@ -25,3 +25,8 @@ dynamically generated from a schema defined in the [Drupal Code Builder
 library](https://github.com/drupal-code-builder/drupal-code-builder). New
 releases of Drupal Code Builder will often cause Module Builder to show new
 options in its forms.
+
+## Coding standards
+
+Module Builder's code generating library has an extensive suite of tests, which
+verify that all generated code complies to Drupal Coding Standards.
